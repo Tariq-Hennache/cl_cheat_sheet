@@ -1,0 +1,42 @@
+pwd stand for print working directory and tells you what folder your currently in 
+
+
+ls stands for list and will list all files and folders in the current directory
+
+ls -l will print more info about about files in directory like date of last modification
+
+ls -al lists all files and folders including hidden files
+
+cd stands for change directory and can be used to move into new directories if the new directory name is written after the cd I.E cd Documents also if written on its own it returns to the home directory. Finally you can move through multiple directories using cd by adding a forward slash at the end of one directory followed by the next directory you want to go to I.E cd Documents/Coding/Week_1_code
+
+mkdir stands for make directory and is used to make directories
+
+touch is used to create files I.E touch CW_1.txt would make an empty text document labeled as CW_1
+
+open is used to open files I.E open CW_1.txt would open that file as a text document
+
+mv stands for move to move file to things are needed the file name and the destination for that file
+
+cd ..  means you want to move up a level in the directory and mv filename .. means you want the file to move up a level
+
+cp stands for copying and works practically the same as mv as in it requires the file you want to copy and the location you want it copied to
+
+rm stands for remove and is used for deleting something BE VERY CAREFUL WITH THIS
+
+git init is short for git initialisation and is used to setup git in a directory
+
+git status lets you know which files have been modified and when
+
+git add filename.txt is used to tell git to start tracking this file
+
+git commit -m "filename.txt" creates a record of what files have been added and details about what has changed in them
+
+When making further changes it must be recommitted this done by writing  git add . then the line below git commit -m "new info name"
+
+
+
+
+
+
+
+
